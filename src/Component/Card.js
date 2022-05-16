@@ -1,6 +1,6 @@
 
-import Image from '../Component/Image'
-import Button from '../Component/Button'
+import Image from './Image'
+import Button from './Button'
 
 const Card = ({ Titre, Id, Text, Src1, Alt1, Src2, Alt2, Src3, Alt3, HeureR, HeureP, LinkGit, linkClock}) => {
 
