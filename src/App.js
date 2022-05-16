@@ -99,14 +99,14 @@ function App() {
 
         <Card 
           Titre={"ReactJoyride"}  
-          HeureP={"9h"} 
-          HeureR={"9h"}
+          HeureP={"10h"} 
+          HeureR={"12h"}
           Id={"ReactJoyride"} 
           Text={''}
           Src1={ReactJoyrideImage} Alt1={'ReactJoyride'} 
           Src2={Tutoriels} Alt2={'Tutoriels'} 
           LinkGit={'https://github.com/pouspous2000/TestTutoriel_ReactJoyride.git'}
-          LinkClock={''}
+          LinkClock={'https://app.clockify.me/dashboard'}
 
         />
 
@@ -122,8 +122,8 @@ function App() {
 
         <Card 
           Titre={""}  
-          HeureP={"3h"} 
-          HeureR={"3h"}
+          HeureP={"10h"} 
+          HeureR={"12h"}
           Id={"ReactJoyride"} 
           Text={''}
           Src1={''} Alt1={''} 
