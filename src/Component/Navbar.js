@@ -1,7 +1,7 @@
 import Pdf from '../Cv_Cecile_Bonnet.pdf';
 const Navbar = () => {
     return (
-        <nav class="navbar fixed-top" style={{ backgroundColor: '#AECBD8',color: 'transparent', opacity: 0.9 , height: '300px', position:'static'}}>
+        <nav class="navbar fixed-top" style={{ backgroundColor: '#457A89',color: 'transparent', opacity: 0.9 , height: '300px', position:'static'}}>
             <div class="container-fluid" >
                 <span style={{ color: ' #f9fbfc'}}>
                     <h1>Portfolio</h1>

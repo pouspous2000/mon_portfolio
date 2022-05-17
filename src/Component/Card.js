@@ -2,21 +2,20 @@
 import Image from './Image'
 import Button from './Button'
 
-const Card = ({ Titre, Id, Text, Src1, Alt1, Src2, Alt2, Src3, Alt3, HeureR, HeureP, LinkGit, linkClock}) => {
+const Card = ({ Titre, Id, Text, Src1, Alt1, Src2, Alt2, Src3, Alt3, Src4, Alt4, HeureR, HeureP, LinkGit, LinkClock}) => {
 
     return (
 
-        <div class="col" style={{ marginBottom: '20px'}}  >
+        <div class="col" style={{ marginBottom: '40px'}}  >
 
-            <div class="card  h-100" style={{ 'width': '300px', 'height': '300px', boxShadow: '5px 5px 10px 1px #5d554b' }}>
-                <div id={Id} class="carousel slide" data-bs-ride="false" data-bs-interval="false" ride = 'false'>
+            <div class="card  h-100" style={{ 'width': '450px', 'height': '450px', boxShadow: '5px 5px 10px 1px #5d554b' }}>
+                <div id={Id} class="carousel" data-bs-ride="carousel" slid-bs-carousel = 'false' data-bs-interval="10000000000000000">
 
                     <div class="carousel-inner">
-
-                        <Image className={"carousel-item active"} src={Src1} alt={Alt1} />
-                        <Image className={"carousel-item "} src={Src2} alt={Alt2} />
-                        <Image className={"carousel-item "} src={Src3} alt={Alt3} />
-
+                        {Src1?<Image className={"carousel-item active"} src={Src1} alt={Alt1} />:'' }
+                        {Src2?<Image className={"carousel-item "} src={Src2} alt={Alt2} />:''}
+                        {Src3?<Image className={"carousel-item "} src={Src3} alt={Alt3} />:''}
+                        {Src4?<Image className={"carousel-item "} src={Src4} alt={Alt4} />:''}
                     </div>
 
                     <a class="left carousel-control" href={`#${Id}`} data-slide="prev">
@@ -36,11 +35,8 @@ const Card = ({ Titre, Id, Text, Src1, Alt1, Src2, Alt2, Src3, Alt3, HeureR, Heu
                     <Button 
                         id = {`${Id}Modal`} 
                         text = {Text} 
-                        src1 = {Src1} alt1 = {Alt1}
-                        src2 = {Src2} alt2 = {Alt2}
-                        src3 = {Src3} alt3 = {Alt3}
                         linkGit = {LinkGit}
-                        linkClock = {linkClock}
+                        linkClock = {LinkClock}
                         titre ={Titre}
                     />
                     </div>
