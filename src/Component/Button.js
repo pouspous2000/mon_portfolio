@@ -1,7 +1,7 @@
 import Image from "./Image";
 
 
-const Button = ({ titre, id, text, linkGit, linkClock }) => {
+const Button = ({ titre, id, text, linkGit, linkClock, date }) => {
     return (
 
         <>
@@ -14,7 +14,8 @@ const Button = ({ titre, id, text, linkGit, linkClock }) => {
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 style={{ fontWeight: '200px', fontFamily: 'serif' }}>{titre}</h1>
+                            <h1>{titre}</h1>
+                            <div style={{marginLeft:'165px', fontSize:'13px'}}>{date}</div>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>

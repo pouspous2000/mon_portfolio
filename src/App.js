@@ -57,6 +57,7 @@ function App() {
 
         <Card 
           Titre={"Installation de Linux"} 
+          Date={'13/02/2020'}
           HeureP={"2h"} 
           HeureR={"2h"} 
           Id={"Linux"} 
@@ -68,6 +69,7 @@ function App() {
 
 <Card 
           Titre={"Women Rock It"}  
+          Date={'30/09/2021'}
           HeureP={"2h"} 
           HeureR={"2h"}
           Id={"WomenRockIt"} 
@@ -79,6 +81,7 @@ function App() {
 
 <Card 
           Titre={"Big Data"}  
+          Date={'29/09/2021'}
           HeureP={"9h"} 
           HeureR={"9h"}
           Id={"Bigdata"} 
@@ -89,6 +92,7 @@ function App() {
 
 <Card 
           Titre={"Hackaton"}  
+          Date={'26-28/03/2021'}
           HeureP={"10h"} 
           HeureR={"48h"}
           Id={"Hackaton"} 
@@ -98,7 +102,8 @@ function App() {
         />
 
         <Card 
-          Titre={"Bénévola chez Bird's BayQ" }  
+          Titre={"Bénévola chez Bird's Bay" }  
+          Date={'Septembre 2021'}
           HeureP={"5h"} 
           HeureR={"15h"}
           Id={"Benevola"} 
@@ -108,7 +113,8 @@ function App() {
         />
 
         <Card 
-          Titre={"Equitation "}  
+          Titre={"Equitation "}
+          Date={"2005-Aujourd'hui"}  
           HeureP={"5h"} 
           HeureR={"+1000...h"}
           Id={"DevDay2021"} 
@@ -119,7 +125,8 @@ function App() {
         />
 
         <Card 
-          Titre={"ReactJoyride"}  
+          Titre={"ReactJoyride"} 
+          Date={"04/2022"}  
           HeureP={"10h"} 
           HeureR={"12h"}
           Id={"ReactJoyride"} 
@@ -133,6 +140,7 @@ function App() {
 
         <Card 
           Titre={"Deployer un site React sur GitHub"}  
+          Date={"17/05/2022"} 
           HeureP={"3h"} 
           HeureR={"3h"}
           Id={"MiseEnLigne"} 
@@ -145,6 +153,7 @@ function App() {
 
         <Card 
           Titre={"Formation Marketing Digital"}  
+          Date={"16/05/2022"} 
           HeureP={"7h"} 
           HeureR={"7h"}
           Id={"FormationMarketingDigital"} 
@@ -156,7 +165,8 @@ function App() {
         />  
 
         <Card 
-          Titre={"DevDay 2020"}  
+          Titre={"DevDay 2020"} 
+          Date={"16/11/2020"}  
           HeureP={"2h"} 
           HeureR={"2h"}  
           Id={"DevDay2020"} 
@@ -168,6 +178,7 @@ function App() {
 
         <Card 
           Titre={"DevDay 2021"}  
+          Date={"23/11/2021"}  
           HeureP={"5h"} 
           HeureR={"5h"}  
           Id={"DevDay2021"} 
