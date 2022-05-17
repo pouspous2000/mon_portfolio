@@ -14,7 +14,7 @@ const Navbar = () => {
                     En voici le détail. <br/>
                     <span>
                         Retrouvez mon cv 
-                        <a href = {Pdf} target = "_blank">  ici </a>
+                        <a href = {Pdf} target = "_blank" style={{fontSize:'20px', color:'white'}}>  ici </a>
                     </span>
                     
                  </span>
