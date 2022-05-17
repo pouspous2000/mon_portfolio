@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.41026220.css",
-    "main.js": "/static/js/main.36de8fc0.js",
+    "main.js": "/static/js/main.2a3f4222.js",
     "static/media/devConference.jpg": "/static/media/devConference.11904ebbef3427ebaac8.jpg",
+    "static/media/Lier.jpg": "/static/media/Lier.fc044a034ef931c4c542.jpg",
     "static/media/herisson.jpg": "/static/media/herisson.9c3075639789af4dced1.jpg",
     "static/media/MoiPassDevDay.jpg": "/static/media/MoiPassDevDay.5ce3b391a311e739a35e.jpg",
     "static/media/linuxGroup.jpg": "/static/media/linuxGroup.6fc0734b20230b0c02c0.jpg",
@@ -11,27 +12,32 @@
     "static/media/TeamHackaton2.jpg": "/static/media/TeamHackaton2.118e16d057b183a53fa1.jpg",
     "static/media/goodiesParis.jpg": "/static/media/goodiesParis.c4de54686f7b9ba71a53.jpg",
     "static/media/MoiPassBigData.jpg": "/static/media/MoiPassBigData.bfde5025a3b45816e883.jpg",
+    "static/media/Balade.jpg": "/static/media/Balade.065b14e6d3de97fd7247.jpg",
     "static/media/Linux.jpg": "/static/media/Linux.ea08519e16e8dd5f5ec8.jpg",
     "static/media/inscriptionHackaton.jpg": "/static/media/inscriptionHackaton.1bf75ee35054ce4d2025.jpg",
     "static/media/hibou.jpg": "/static/media/hibou.8ea676fdb1ffdb27eac8.jpg",
-    "static/media/devDay.png": "/static/media/devDay.e595f3d18310ebfbfce4.png",
+    "static/media/devDay.png": "/static/media/devDay.fa4df47384cd79733fff.png",
     "static/media/Cv_Cecile_Bonnet.pdf": "/static/media/Cv_Cecile_Bonnet.f7a9613b6a9701a3bb0f.pdf",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/Opera.jpg": "/static/media/Opera.c39d2b19ab5d0a6a7ee0.jpg",
     "static/media/inscriptionWomenRockIt.jpg": "/static/media/inscriptionWomenRockIt.dab0518b3d68c4d8e774.jpg",
-    "static/media/logoBenevola.jpg": "/static/media/logoBenevola.e08eb3ee164a4d822d13.jpg",
     "static/media/certifWomenRockIt.jpg": "/static/media/certifWomenRockIt.bedc857147eecaad9b68.jpg",
     "static/media/womenRock.jpg": "/static/media/womenRock.2e6c673e760dc0f2d011.jpg",
     "static/media/inscriptionDevDay.jpg": "/static/media/inscriptionDevDay.822648967ffe52d6dc17.jpg",
     "static/media/Tutoriels.jpg": "/static/media/Tutoriels.3b6d62a823abba93994a.jpg",
+    "static/media/certification.png": "/static/media/certification.166772fa5fc685065ae5.png",
+    "static/media/repoGit.png": "/static/media/repoGit.86232559b1bfbba25e09.png",
     "static/media/ReactJoyride.jpg": "/static/media/ReactJoyride.87c0d39a629d90e2a8aa.jpg",
-    "static/media/louvain-linux.jpg": "/static/media/louvain-linux.56d3b57ee7ef9dc68996.jpg",
+    "static/media/FormationComplete.png": "/static/media/FormationComplete.7984f67d1465df28596c.png",
+    "static/media/EnLigne.png": "/static/media/EnLigne.3664f55f8a790045fad0.png",
+    "static/media/clock.png": "/static/media/clock.c1e07e8847e57dd98434.png",
     "index.html": "/index.html",
     "main.41026220.css.map": "/static/css/main.41026220.css.map",
-    "main.36de8fc0.js.map": "/static/js/main.36de8fc0.js.map"
+    "main.2a3f4222.js.map": "/static/js/main.2a3f4222.js.map"
   },
   "entrypoints": [
     "static/css/main.41026220.css",
-    "static/js/main.36de8fc0.js"
+    "static/js/main.2a3f4222.js"
   ]
 }
